@@ -13,11 +13,11 @@
 4. 點擊 "Create repository"
 
 ### 2. 推送到 GitHub
-複製以下指令並替換 `你的用戶名` 為你的 GitHub 用戶名：
+執行以下指令：
 
 ```bash
 # 添加遠端儲存庫
-git remote add origin https://github.com/你的用戶名/streaming-huber-regression.git
+git remote add origin https://github.com/wcw100168/streaming-huber-regression.git
 
 # 推送到 GitHub
 git push -u origin main
@@ -26,7 +26,7 @@ git push -u origin main
 ### 3. 測試安裝（其他人使用你的套件時）
 ```bash
 # 其他人可以這樣安裝你的套件
-pip install git+https://github.com/你的用戶名/streaming-huber-regression.git
+pip install git+https://github.com/wcw100168/streaming-huber-regression.git
 
 # 測試安裝
 python -c "from streaming_huber import streaming_huber_training; print('✅ 安裝成功!')"

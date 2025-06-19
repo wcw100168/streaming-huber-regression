@@ -55,8 +55,8 @@ cd "/Users/user/Downloads/巨量資料分析期末/實作嘗試v7/streaming_hube
 # 初始化 Git 儲存庫
 git init
 
-# 添加遠端儲存庫（替換成你的 GitHub 用戶名）
-git remote add origin https://github.com/你的用戶名/streaming-huber-regression.git
+# 添加遠端儲存庫
+git remote add origin https://github.com/wcw100168/streaming-huber-regression.git
 ```
 
 ### 步驟 3: 創建 .gitignore 檔案
@@ -174,17 +174,17 @@ git push origin v1.0.0
 
 ```bash
 # 使用 pip 直接從 GitHub 安裝
-pip install git+https://github.com/你的用戶名/streaming-huber-regression.git
+pip install git+https://github.com/wcw100168/streaming-huber-regression.git
 
 # 或安裝特定版本
-pip install git+https://github.com/你的用戶名/streaming-huber-regression.git@v1.0.0
+pip install git+https://github.com/wcw100168/streaming-huber-regression.git@v1.0.0
 ```
 
 ### 方法 2: Clone 後本地安裝
 
 ```bash
 # Clone 儲存庫
-git clone https://github.com/你的用戶名/streaming-huber-regression.git
+git clone https://github.com/wcw100168/streaming-huber-regression.git
 
 # 進入目錄
 cd streaming-huber-regression
@@ -322,12 +322,12 @@ print(f"最佳配置: {best_config[0]}")
 ### Q1: 安裝時出現權限錯誤
 ```bash
 # 使用 --user 參數
-pip install --user git+https://github.com/你的用戶名/streaming-huber-regression.git
+pip install --user git+https://github.com/wcw100168/streaming-huber-regression.git
 
 # 或使用虛擬環境
 python -m venv streaming_huber_env
 source streaming_huber_env/bin/activate  # Windows: streaming_huber_env\Scripts\activate
-pip install git+https://github.com/你的用戶名/streaming-huber-regression.git
+pip install git+https://github.com/wcw100168/streaming-huber-regression.git
 ```
 
 ### Q2: NumPy 相容性警告
@@ -356,7 +356,7 @@ loader = StreamingDataLoaderWithDask(
 ### Q5: 更新套件
 ```bash
 # 更新到最新版本
-pip install --upgrade git+https://github.com/你的用戶名/streaming-huber-regression.git
+pip install --upgrade git+https://github.com/wcw100168/streaming-huber-regression.git
 ```
 
 ---
@@ -518,4 +518,4 @@ git push
 
 現在你可以將套件分享給其他人使用，或者在不同的環境中安裝使用你的串流 Huber 回歸套件！
 
-**記得替換教學中的 `你的用戶名` 為你實際的 GitHub 用戶名。**
+**記得你的 GitHub 資訊是：`wcw100168/streaming-huber-regression`**
