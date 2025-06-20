@@ -15,6 +15,9 @@
 ### 安裝
 
 ```bash
+pip install git+https://github.com/wcw100168/streaming-huber-regression.git
+```
+```bash
 pip install -r requirements.txt
 ```
 
